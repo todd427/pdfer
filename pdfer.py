@@ -38,7 +38,7 @@ def read_pdf(file_path):
 
 # Example usage
 if __name__ == "__main__":
-    pdf_path = ""C:\Users\todd\Downloads\15620.pdf""  # Replace with your PDF file path
+    pdf_path = r"C:\Users\todd\Downloads\15620.pdf"  # Replace with your PDF file path
     pdf_text = read_pdf(pdf_path)
     
     if pdf_text:
